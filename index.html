@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ps discount using switch method</title>
+</head>
+<body>
+    <p> Design a program that calculates discounts based on product categories (Electronics, Clothing, Grocery). Each category has specific discount rates for different products:
+
+        Electronics: Mobile - 5%, Laptop - 10%
+        
+        Clothing: Men - 15%, Women - 20%
+        
+        Grocery: Fruits - 5%, Vegetables - 10%
+        </p>
+        <script>        const UserInput = prompt("enter the products :").toLowerCase()
+            const subproducts = prompt("enter the products :").toLowerCase()
+            switch (UserInput) {
+                case "electronics":
+                    switch (subproducts) {
+                        case "mobiles":
+                            console.log("discount 12%")
+                            break;
+
+
+                                case "laptops":
+                                    console.log("discount 15%")
+                                    break;
+
+
+                                        case "ac":
+                                            console.log("discount 20%")
+                                            break;
+                                            default:
+                                            console.log("product not found")
+                            }
+
+
+
+
+
+    }
+
+    switch (UserInput) {
+                case "clothes":
+                    switch (subproducts) {
+                        case "shirts":
+                            console.log("damaged")
+                            break;
+
+
+                                case "pants":
+                                    console.log("discount 65%")
+                                    break;
+
+
+                                        case "t-shirts":
+                                            console.log("discount 50%")
+                                            break;
+                                            default:
+                            console.log("clothes not found")
+
+
+                            }
+
+            
+                    }
+
+
+                    switch (UserInput) {
+                case "groceries":
+                    switch (subproducts) {
+                        case "ricebag":
+                            console.log("discount of 30%")
+                            break;
+
+
+                                case "oil":
+                                    console.log("discount 65%")
+                                    break;
+
+
+                                        case "milk":
+                                            console.log("discount 50%")
+                                            break;
+                                            default:
+                            console.log(" not found")
+
+
+                            }
+
+            
+                    }
+    </script>
+</body>
+</html>
